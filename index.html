@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>DEAD SOIL</title>
+    <meta name="description" content="Doom Industrial band from the Netherlands">
+
+    <meta property="og:title" content="DEAD SOIL">
+    <meta property="og:site_name" content="DEAD SOIL">
+    <meta property="og:url" content="https://deadsoil.bio">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://deadsoil.bio/dead-soil-og.jpg">
+
     <style>
         html {
             box-sizing: border-box;
@@ -42,10 +52,13 @@
             font-family: sans-serif;
         }
 
+        main {
+            max-width: 400px;
+        }
+
         img {
             width: 100%;
             display: block;
-            max-width: 400px;
         }
 
         ul {
@@ -64,10 +77,23 @@
             padding: 1em;
             display: block;
             text-decoration: none;
+            transition: background .2s ease, color .2s ease;
+        }
+
+        a:hover, a:focus {
+            background: #ccc;
+            color: #000;
+        }
+
+        p {
+            color: #666;
+            margin: 2em 0;
+            line-height: 1.5em;
         }
     </style>
 </head>
 <body>
+<main>
     <img src="./dead-soil-eye.jpg" alt="DEAD SOIL" />
 
     <ul>
@@ -78,11 +104,19 @@
             <a href="https://music.apple.com/us/album/231-single/1624218374">Listen on Apple Music</a>
         </li>
         <li>
+            <a href="https://www.instagram.com/dead__soil/">Follow on Instagram</a>
+        </li>
+        <li>
             <a href="https://www.youtube.com/watch?v=JRQca1XYglM&list=OLAK5uy_lGHkjD7RPWFaWFrQWI-3xZDrol653Fe7U">Listen on YouTube</a>
         </li>
         <li>
             <a href="https://music.apple.com/us/album/231-single/1624218374">Buy on iTunes</a>
         </li>
     </ul>
+
+    <p>
+        Dead Soil is a Doom Industrial band hailing from the Netherlands. Danny: Guitars, Programming. Marc: Bass. Gaya: Vocals, Synths.
+    </p>
+</main>
 </body>
 </html>
